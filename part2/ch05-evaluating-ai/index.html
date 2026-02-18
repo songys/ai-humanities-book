@@ -1,0 +1,1505 @@
+
+<!doctype html>
+<html lang="ko" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="인공지능과 인문학 — 프롬프트 작성부터 AI 글 평가까지">
+      
+      
+        <meta name="author" content="송영숙">
+      
+      
+      
+        <link rel="prev" href="../ch04-writing-with-tone/">
+      
+      
+        <link rel="next" href="../../appendix/ai-tools-comparison/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>5장 AI 글 평가와 교정 - AI 시대, 인문학의 새로운 가능성</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans KR";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#5-ai" class="md-skip">
+          콘텐츠로 이동
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="상단/헤더">
+    <a href="../.." title="AI 시대, 인문학의 새로운 가능성" class="md-header__button md-logo" aria-label="AI 시대, 인문학의 새로운 가능성" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI 시대, 인문학의 새로운 가능성
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              5장 AI 글 평가와 교정
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="다크 모드로 전환"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="다크 모드로 전환" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="라이트 모드로 전환"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="라이트 모드로 전환" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="검색" placeholder="검색" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="검색">
+        
+        <button type="reset" class="md-search__icon md-icon" title="지우기" aria-label="지우기" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            검색 초기화
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="네비게이션" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AI 시대, 인문학의 새로운 가능성" class="md-nav__button md-logo" aria-label="AI 시대, 인문학의 새로운 가능성" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    AI 시대, 인문학의 새로운 가능성
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    시작하며
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../part1/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part I — AI와 인문학의 만남
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part I — AI와 인문학의 만남
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1/ch01-ai-and-humanities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1장 인공지능 시대, 인문학의 새로운 가능성
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../part1/ch02-generative-ai/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2장 생성형 AI 이해하기
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part II — AI와 대화하기
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part II — AI와 대화하기
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch03-prompt-basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3장 프롬프트의 기초
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch04-writing-with-tone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4장 말투 변환으로 글쓰기
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5장 AI 글 평가와 교정
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5장 AI 글 평가와 교정
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ai-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI 한국어 글의 6가지 전형적 문제
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI 한국어 글의 6가지 전형적 문제">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 1: 문장이 짧고 단절적이다
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 2: 문단을 지나치게 자주 나눈다
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 3: 번역투 표현
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 4: 슬롭 워드 (AI 과용 단어)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 5: 종결 어미가 단조롭다
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 6: 메타 해설 (투어 가이드 문장)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI에게 글을 평가시키는 프롬프트
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI에게 글을 평가시키는 프롬프트">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        종합 평가 프롬프트
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        비교 평가 프롬프트
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        교정 요청 프롬프트
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        말투별 평가 결과
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI의 한계와 윤리
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI의 한계와 윤리">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hallucination" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        환각 (Hallucination)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        그 외 한계
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        윤리적 주의사항
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    부록
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    부록
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendix/ai-tools-comparison/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI 도구 비교표
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendix/prompt-templates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    프롬프트 템플릿 모음
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../appendix/korean-writing-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    한국어 글쓰기 가이드
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ai-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI 한국어 글의 6가지 전형적 문제
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI 한국어 글의 6가지 전형적 문제">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 1: 문장이 짧고 단절적이다
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 2: 문단을 지나치게 자주 나눈다
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 3: 번역투 표현
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 4: 슬롭 워드 (AI 과용 단어)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 5: 종결 어미가 단조롭다
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        문제 6: 메타 해설 (투어 가이드 문장)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI에게 글을 평가시키는 프롬프트
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI에게 글을 평가시키는 프롬프트">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        종합 평가 프롬프트
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        비교 평가 프롬프트
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        교정 요청 프롬프트
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        말투별 평가 결과
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI의 한계와 윤리
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI의 한계와 윤리">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hallucination" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        환각 (Hallucination)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        그 외 한계
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        윤리적 주의사항
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="5-ai">5장 AI 글 평가와 교정<a class="headerlink" href="#5-ai" title="Permanent link">&para;</a></h1>
+<p>AI가 생성한 글은 문법적으로 맞아도 "AI가 쓴 것 같은" 느낌을 줄 때가 많습니다. 그 느낌의 정체를 구체적 기준으로 분해하고, 직접 교정하는 방법을 배워봅시다.</p>
+<h2 id="ai-6">AI 한국어 글의 6가지 전형적 문제<a class="headerlink" href="#ai-6" title="Permanent link">&para;</a></h2>
+<p><img alt="AI 글의 6가지 문제" src="../../assets/images/figures/ch05/ai-writing-problems.svg" /></p>
+<h3 id="1">문제 1: 문장이 짧고 단절적이다<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
+<p>AI는 한 문장에 하나의 정보만 담고 끊는 경향이 있습니다. 한국어는 접속 어미('~이고,', '~인데,', '~하는데,')로 문장을 자연스럽게 이어가는 언어인데, AI 글은 이 연결이 빠져 있어 딱딱하게 느껴집니다.</p>
+<div class="admonition failure">
+<p class="admonition-title">AI투 (X)</p>
+<p>GB200 같은 가속기는 Plug &amp; Play로 설정이 끝나는 장비가 아닙니다. 제대로 사용하기 위해서는 상당히 복잡한 설정과 관리가 필요합니다.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">자연스러운 한국어 (O)</p>
+<p>GB200과 같은 데이터센터급 가속기는 Plug &amp; Play로 설정을 끝낼 수 있는 장비들이 아니고, 제대로 사용하기 위해서는 꽤나 복잡한 설정과 관리가 필요합니다.</p>
+</div>
+<p><strong>교정 포인트:</strong> '~이고,', '~인데,', '~하는데,' 같은 연결 어미로 문장을 이어 붙이세요.</p>
+<h3 id="2">문제 2: 문단을 지나치게 자주 나눈다<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<p>한두 문장을 쓰고 바로 줄을 바꾸면 글이 산만해 보입니다. 하나의 문단은 하나의 생각을 최소 3~4문장으로 전개해야 합니다.</p>
+<div class="admonition failure">
+<p class="admonition-title">AI투 (X)</p>
+<p>GPU 클러스터 운영에서 활용률은 핵심 지표입니다.</p>
+<p>업계 조사에 따르면 평균 활용률은 30~50%에 머물고 있습니다.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">자연스러운 한국어 (O)</p>
+<p>GPU 클러스터 운영에서 활용률은 핵심 지표인데, 업계 조사에 따르면 평균 활용률은 30~50%에 머물고 있습니다. 100대 규모의 클러스터라면 절반 이상의 연산 능력이 유휴 상태로 놀고 있는 셈이죠.</p>
+</div>
+<h3 id="3">문제 3: 번역투 표현<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<p>영어 구문을 직역한 표현이 섞여 있으면 어색합니다.</p>
+<table>
+<thead>
+<tr>
+<th>번역투 (X)</th>
+<th>자연스러운 대안 (O)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>~하는 것이 중요합니다</td>
+<td>왜 중요한지 직접 서술</td>
+</tr>
+<tr>
+<td>~에 있어</td>
+<td>~에서, ~할 때</td>
+</tr>
+<tr>
+<td>~를 기반으로 한</td>
+<td>~로 만든, ~위에 세운</td>
+</tr>
+<tr>
+<td>~함으로써</td>
+<td>~하면, ~해서</td>
+</tr>
+<tr>
+<td>~에 대한 깊은 이해</td>
+<td>~를 잘 아는 것</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-ai">문제 4: 슬롭 워드 (AI 과용 단어)<a class="headerlink" href="#4-ai" title="Permanent link">&para;</a></h3>
+<p>AI가 통계적으로 너무 자주 쓰는 단어들이 있습니다. 전면 금지가 아니라 무의식적 반복을 경계해야 합니다.</p>
+<ul>
+<li><strong>형용사/부사:</strong> 혁신적인, 획기적인, 선도적인, 차별화된, 탁월한, 원활한, 강력한</li>
+<li><strong>접속구:</strong> 이를 통해, 이를 바탕으로, 이와 같이, 이러한 가운데</li>
+<li><strong>전환어:</strong> 또한, 더불어, 나아가, 한편, 특히, 무엇보다</li>
+</ul>
+<p>한 문서에서 같은 전환어가 2회 이상 나오면 과용입니다.</p>
+<h3 id="5">문제 5: 종결 어미가 단조롭다<a class="headerlink" href="#5" title="Permanent link">&para;</a></h3>
+<p>'~합니다', '~있습니다'로만 문장을 끝내면 기계가 쓴 느낌이 강해집니다.</p>
+<div class="admonition failure">
+<p class="admonition-title">AI투 (X)</p>
+<p>Backend.AI는 GPU를 관리합니다. Fractional GPU 기술을 제공합니다. 110개 이상의 사이트에서 운영되고 있습니다.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">자연스러운 한국어 (O)</p>
+<p>~입니다, ~됩니다, ~셈입니다, ~마찬가지입니다, ~죠, ~는데요 등을 섞어 사용하면 훨씬 자연스럽습니다.</p>
+</div>
+<h3 id="6">문제 6: 메타 해설 (투어 가이드 문장)<a class="headerlink" href="#6" title="Permanent link">&para;</a></h3>
+<p>내용을 직접 서술하지 않고, 한 발 물러서서 내용에 '대해' 해설하는 문장입니다.</p>
+<table>
+<thead>
+<tr>
+<th>메타 해설 (X)</th>
+<th>직접 서술 (O)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>핵심은 ~입니다</td>
+<td>핵심이라 부르는 내용을 바로 서술</td>
+</tr>
+<tr>
+<td>가장 뚜렷한 사례는 A입니다</td>
+<td>'A에서는...' 하고 바로 진입</td>
+</tr>
+<tr>
+<td>이는 X의 결과로 볼 수 있습니다</td>
+<td>X이기 때문입니다</td>
+</tr>
+<tr>
+<td>몇 가지 이점이 생깁니다:</td>
+<td>이점을 바로 서술</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ai">AI에게 글을 평가시키는 프롬프트<a class="headerlink" href="#ai" title="Permanent link">&para;</a></h2>
+<p>AI가 생성한 글을 다시 AI에게 평가시킬 수 있습니다.</p>
+<h3 id="_1">종합 평가 프롬프트<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>다음 글을 아래 6가지 기준으로 평가해 주세요.
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>각 항목마다 (O) 양호 또는 (X) 개선 필요를 표시하고,
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>(X)인 경우 해당 문장을 인용한 뒤 교정안을 제시해 주세요.
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>1. 문장 연결: 접속 어미 없이 짧게 끊긴 문장이 있는가?
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>2. 문단 분절: 한두 문장만으로 이루어진 문단이 있는가?
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>3. 번역투: &quot;~하는 것이 중요합니다&quot;, &quot;~에 있어&quot;, &quot;~함으로써&quot; 등이 있는가?
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>4. 슬롭 워드: &quot;혁신적인&quot;, &quot;획기적인&quot;, &quot;이를 통해&quot; 등 AI 과용 단어가 있는가?
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>5. 종결 어미: &quot;~합니다/~있습니다&quot;만 반복되지 않는가?
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>6. 메타 해설: &quot;핵심은~&quot;, &quot;사례는~&quot;, &quot;이점이 생깁니다:&quot; 등 투어 가이드 문장이 있는가?
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>[평가할 글 붙여넣기]
+</span></code></pre></div>
+<h3 id="_2">비교 평가 프롬프트<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>아래 두 글은 같은 내용을 다른 말투로 쓴 것입니다.
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>각각의 장단점을 분석하고, 어떤 상황에서 어떤 글이 더 적합한지 설명해 주세요.
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>평가 기준: 정보 전달력, 독자 친근감, 신뢰감, 전문성
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>[글 A 붙여넣기]
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>[글 B 붙여넣기]
+</span></code></pre></div>
+<h3 id="_3">교정 요청 프롬프트<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>다음 글에서 AI가 쓴 것 같은 부분을 모두 찾아 주세요.
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>각 부분에 대해:
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>1. 원문 인용
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>2. 어떤 AI 패턴에 해당하는지 (번역투 / 슬롭 워드 / 단절적 문장 / 메타 해설 등)
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>3. 교정안
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>을 표로 정리해 주세요.
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>[교정할 글 붙여넣기]
+</span></code></pre></div>
+<h2 id="_4">말투별 평가 결과<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>4장에서 생성한 6가지 말투의 결과를 위 평가 기준으로 분석하면 다음과 같습니다.</p>
+<table>
+<thead>
+<tr>
+<th>말투</th>
+<th>문장 연결</th>
+<th>번역투</th>
+<th>슬롭 워드</th>
+<th>종결 다양성</th>
+<th>메타 해설</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A. 강의형</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O (~거든요, ~인데요, ~예요 혼용)</td>
+<td>O</td>
+</tr>
+<tr>
+<td>B. 경험자형</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O (~거든요, ~됐습니다, ~줍니다 혼용)</td>
+<td>O</td>
+</tr>
+<tr>
+<td>C. 보고서형</td>
+<td>△</td>
+<td><strong>X</strong> (~함으로써, 아울러)</td>
+<td>O</td>
+<td>△ (~입니다 반복)</td>
+<td>O</td>
+</tr>
+<tr>
+<td>D. 선배형</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O (~거야, ~줄어, ~보면 돼 혼용)</td>
+<td>O</td>
+</tr>
+<tr>
+<td>E. 마케팅형</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr>
+<td>F. 기사형</td>
+<td>O</td>
+<td>△ (~가운데)</td>
+<td>△ (이 같은)</td>
+<td>O</td>
+<td>△</td>
+</tr>
+</tbody>
+</table>
+<p>보고서형(C)은 격식을 높이려다 번역투('~함으로써', '아울러')가 들어가기 쉽고, 기사형(F)은 객관성을 추구하면서 '이 같은', '~가운데' 같은 AI 과용 접속구가 나타납니다. 반면 강의형(A)과 경험자형(B)은 구어체 특성상 AI 패턴이 가장 적게 나타납니다.</p>
+<h2 id="ai_1">AI의 한계와 윤리<a class="headerlink" href="#ai_1" title="Permanent link">&para;</a></h2>
+<p><img alt="AI의 5가지 한계" src="../../assets/images/figures/ch05/ai-limitations-overview.svg" /></p>
+<h3 id="hallucination">환각 (Hallucination)<a class="headerlink" href="#hallucination" title="Permanent link">&para;</a></h3>
+<p>AI가 사실이 아닌 정보를 마치 사실인 것처럼 자신있게 답하는 현상입니다. 존재하지 않는 논문, 가짜 인용, 틀린 통계를 만들어낼 수 있습니다. AI는 '그럴듯한 다음 단어'를 예측하는 것이지 '사실'을 아는 것이 아니므로, 학술 논문 인용은 반드시 직접 확인해야 합니다.</p>
+<h3 id="_5">그 외 한계<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>한계</th>
+<th>설명</th>
+<th>예시</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>최신 정보 부족</td>
+<td>학습 데이터 이후 정보를 모름</td>
+<td>'어제 축구 결과 알려줘' → 답변 불가</td>
+</tr>
+<tr>
+<td>개인 경험 부재</td>
+<td>자기만의 경험이나 감정이 없음</td>
+<td>'네 생각은?' → 사실은 '생각'이 없음</td>
+</tr>
+<tr>
+<td>수학적 추론</td>
+<td>복잡한 수학 문제에서 실수</td>
+<td>긴 계산, 논리 퍼즐 등</td>
+</tr>
+<tr>
+<td>일관성 부족</td>
+<td>같은 질문에 다른 답변</td>
+<td>매번 결과가 조금씩 달라짐</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_6">윤리적 주의사항<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>AI를 활용할 때 지켜야 할 원칙이 있습니다.</p>
+<ul>
+<li><strong>표절 주의:</strong> AI가 쓴 글을 그대로 제출하면 표절이 될 수 있습니다.</li>
+<li><strong>출처 명시:</strong> AI를 활용했다면 AI 사용 사실을 밝히는 것이 정직합니다.</li>
+<li><strong>개인정보 보호:</strong> 개인 정보나 민감한 데이터를 AI에 입력하지 않습니다.</li>
+<li><strong>편향 인식:</strong> AI 답변에도 편향이 있을 수 있음을 인지합니다.</li>
+<li><strong>검증 습관:</strong> AI의 답변을 무조건 신뢰하지 말고 확인합니다.</li>
+</ul>
+<p>AI는 강력한 도구입니다. 최종 판단은 항상 사람이 해야 합니다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  맨위로
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes", "toc.follow", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
