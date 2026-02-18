@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-02-18T23:23:36.673362</dc:date>
+    <dc:date>2026-02-18T23:39:37.842409</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -30,6 +30,19 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
+    <path d="M 35.55 277.807427 
+L 621.45 277.807427 
+Q 635.881034 277.807427 635.881034 261.42122 
+L 635.881034 61.07253 
+Q 635.881034 44.686323 621.45 44.686323 
+L 35.55 44.686323 
+Q 21.118966 44.686323 21.118966 61.07253 
+L 21.118966 261.42122 
+Q 21.118966 277.807427 35.55 277.807427 
+z
+" clip-path="url(#pa987767e33)" style="fill: #eef3fa; stroke: #e0e0e0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
     <path d="M 73.551724 237.715841 
 L 184.189655 237.715841 
 Q 191.405172 237.715841 191.405172 229.522737 
@@ -40,9 +53,9 @@ Q 66.336207 90.239978 66.336207 98.433082
 L 66.336207 229.522737 
 Q 66.336207 237.715841 73.551724 237.715841 
 z
-" clip-path="url(#p7721ccbb01)" style="fill: #e3f2fd; stroke: #002060; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa987767e33)" style="fill: #ffffff; stroke: #4080c0; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_3">
+   <g id="patch_4">
     <path d="M 203.431034 237.715841 
 L 314.068966 237.715841 
 Q 321.284483 237.715841 321.284483 229.522737 
@@ -53,9 +66,9 @@ Q 196.215517 90.239978 196.215517 98.433082
 L 196.215517 229.522737 
 Q 196.215517 237.715841 203.431034 237.715841 
 z
-" clip-path="url(#p7721ccbb01)" style="fill: #f3e5f5; stroke: #4a148c; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa987767e33)" style="fill: #ffffff; stroke: #9060b0; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_4">
+   <g id="patch_5">
     <path d="M 333.310345 237.715841 
 L 443.948276 237.715841 
 Q 451.163793 237.715841 451.163793 229.522737 
@@ -66,9 +79,9 @@ Q 326.094828 90.239978 326.094828 98.433082
 L 326.094828 229.522737 
 Q 326.094828 237.715841 333.310345 237.715841 
 z
-" clip-path="url(#p7721ccbb01)" style="fill: #e8f5e9; stroke: #2e7d32; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa987767e33)" style="fill: #ffffff; stroke: #558838; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_5">
+   <g id="patch_6">
     <path d="M 463.189655 237.715841 
 L 573.827586 237.715841 
 Q 581.043103 237.715841 581.043103 229.522737 
@@ -79,11 +92,11 @@ Q 455.974138 90.239978 455.974138 98.433082
 L 455.974138 229.522737 
 Q 455.974138 237.715841 463.189655 237.715841 
 z
-" clip-path="url(#p7721ccbb01)" style="fill: #fffde7; stroke: #f57f17; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#pa987767e33)" style="fill: #ffffff; stroke: #e07050; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- 1단계 -->
-    <g style="fill: #002060" transform="translate(117.392018 134.847527) scale(0.11 -0.11)">
+    <g style="fill: #4080c0" transform="translate(117.392018 134.847527) scale(0.11 -0.11)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-31" d="M 1146 243 
 L 1632 243 
@@ -163,7 +176,7 @@ z
    </g>
    <g id="text_2">
     <!-- 대량의 텍스트 -->
-    <g style="fill: #555555" transform="translate(104.33233 189.643504) scale(0.09 -0.09)">
+    <g style="fill: #666666" transform="translate(104.33233 189.643504) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-b300" d="M 4960 -448 
 L 4960 5146 
@@ -353,7 +366,7 @@ z
      <use xlink:href="#AppleSDGothicNeo-Regular-d2b8" transform="translate(458.799911 0)"/>
     </g>
     <!-- 학습 -->
-    <g style="fill: #555555" transform="translate(121.08569 198.892692) scale(0.09 -0.09)">
+    <g style="fill: #666666" transform="translate(121.08569 198.892692) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-d559" d="M 5395 3098 
 L 5395 3507 
@@ -439,7 +452,7 @@ z
    </g>
    <g id="text_3">
     <!-- 2단계 -->
-    <g style="fill: #4a148c" transform="translate(246.303672 134.847527) scale(0.11 -0.11)">
+    <g style="fill: #9060b0" transform="translate(246.303672 134.847527) scale(0.11 -0.11)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-32" d="M 397 269 
 L 3066 269 
@@ -465,7 +478,7 @@ z
    </g>
    <g id="text_4">
     <!-- 다음 단어 -->
-    <g style="fill: #555555" transform="translate(241.996641 189.600473) scale(0.09 -0.09)">
+    <g style="fill: #666666" transform="translate(241.996641 189.600473) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-b2e4" d="M 4557 5146 
 L 4070 5146 
@@ -549,7 +562,7 @@ z
      <use xlink:href="#AppleSDGothicNeo-Regular-c5b4" transform="translate(285.799942 0)"/>
     </g>
     <!-- 예측 능력 -->
-    <g style="fill: #555555" transform="translate(241.996641 198.935723) scale(0.09 -0.09)">
+    <g style="fill: #666666" transform="translate(241.996641 198.935723) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-c608" d="M 1523 4691 
 C 704 4691 288 3885 288 2746 
@@ -694,7 +707,7 @@ z
    </g>
    <g id="text_5">
     <!-- 3단계 -->
-    <g style="fill: #2e7d32" transform="translate(376.166654 134.847527) scale(0.11 -0.11)">
+    <g style="fill: #558838" transform="translate(376.166654 134.847527) scale(0.11 -0.11)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-33" d="M 1491 205 
 C 2445 205 3053 730 3053 1478 
@@ -724,7 +737,7 @@ z
    </g>
    <g id="text_6">
     <!-- 사용자 질문에 -->
-    <g style="fill: #555555" transform="translate(364.090951 189.648567) scale(0.09 -0.09)">
+    <g style="fill: #666666" transform="translate(364.090951 189.648567) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-c0ac" d="M 5446 2477 
 L 5446 2886 
@@ -916,7 +929,7 @@ z
      <use xlink:href="#AppleSDGothicNeo-Regular-c5d0" transform="translate(458.799911 0)"/>
     </g>
     <!-- 답변 생성 -->
-    <g style="fill: #555555" transform="translate(371.875951 198.887629) scale(0.09 -0.09)">
+    <g style="fill: #666666" transform="translate(371.875951 198.887629) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-b2f5" d="M 5389 3418 
 L 5389 3827 
@@ -1078,7 +1091,7 @@ z
    </g>
    <g id="text_7">
     <!-- 4단계 -->
-    <g style="fill: #f57f17" transform="translate(505.941121 134.847527) scale(0.11 -0.11)">
+    <g style="fill: #e07050" transform="translate(505.941121 134.847527) scale(0.11 -0.11)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-34" d="M 2214 166 
 L 2682 166 
@@ -1107,7 +1120,7 @@ z
    </g>
    <g id="text_8">
     <!-- 대화로 -->
-    <g style="fill: #555555" transform="translate(506.831121 189.643504) scale(0.09 -0.09)">
+    <g style="fill: #666666" transform="translate(506.831121 189.643504) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-d654" d="M 3731 1062 
 C 3360 1005 2765 954 2144 915 
@@ -1181,7 +1194,7 @@ z
      <use xlink:href="#AppleSDGothicNeo-Regular-b85c" transform="translate(172.999969 0)"/>
     </g>
     <!-- 답변 개선 -->
-    <g style="fill: #555555" transform="translate(501.755261 198.892692) scale(0.09 -0.09)">
+    <g style="fill: #666666" transform="translate(501.755261 198.892692) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-ac1c" d="M 4960 -448 
 L 4960 5146 
@@ -1244,36 +1257,36 @@ z
      <use xlink:href="#AppleSDGothicNeo-Regular-c120" transform="translate(285.799942 0)"/>
     </g>
    </g>
-   <g id="patch_6">
+   <g id="patch_7">
     <path d="M 186.186136 163.977909 
 Q 193.808668 163.977909 199.195131 163.977909 
-" style="fill: none; stroke: #002060; stroke-width: 2; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 2; stroke-linecap: round"/>
     <path d="M 195.195131 161.977909 
 L 199.195131 163.977909 
 L 195.195131 165.977909 
-" style="fill: none; stroke: #002060; stroke-width: 2; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 2; stroke-linecap: round"/>
    </g>
-   <g id="patch_7">
+   <g id="patch_8">
     <path d="M 316.065447 163.977909 
 Q 323.687978 163.977909 329.074441 163.977909 
-" style="fill: none; stroke: #002060; stroke-width: 2; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 2; stroke-linecap: round"/>
     <path d="M 325.074441 161.977909 
 L 329.074441 163.977909 
 L 325.074441 165.977909 
-" style="fill: none; stroke: #002060; stroke-width: 2; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 2; stroke-linecap: round"/>
    </g>
-   <g id="patch_8">
+   <g id="patch_9">
     <path d="M 445.944757 163.977909 
 Q 453.567288 163.977909 458.953752 163.977909 
-" style="fill: none; stroke: #002060; stroke-width: 2; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 2; stroke-linecap: round"/>
     <path d="M 454.953752 161.977909 
 L 458.953752 163.977909 
 L 454.953752 165.977909 
-" style="fill: none; stroke: #002060; stroke-width: 2; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_9">
     <!-- 생성형 AI 작동 원리 4단계 -->
-    <g style="fill: #002060" transform="translate(256.708438 32.366875) scale(0.14 -0.14)">
+    <g style="fill: #333333" transform="translate(256.708438 32.366875) scale(0.14 -0.14)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-d615" d="M 4838 525 
 C 4838 1120 4192 1491 2976 1491 
@@ -1502,7 +1515,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p7721ccbb01">
+  <clipPath id="pa987767e33">
    <rect x="21.6" y="50.366875" width="613.8" height="221.76"/>
   </clipPath>
  </defs>

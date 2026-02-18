@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-02-18T23:23:36.553792</dc:date>
+    <dc:date>2026-02-18T23:39:37.719125</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -30,6 +30,19 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
+    <path d="M 34.281818 251.214288 
+L 566.918182 251.214288 
+Q 581.411688 251.214288 581.411688 235.026302 
+L 581.411688 59.721198 
+Q 581.411688 43.533212 566.918182 43.533212 
+L 34.281818 43.533212 
+Q 19.788312 43.533212 19.788312 59.721198 
+L 19.788312 235.026302 
+Q 19.788312 251.214288 34.281818 251.214288 
+z
+" clip-path="url(#pd51ce7b9cf)" style="fill: #eef3fa; stroke: #e0e0e0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
     <path d="M 95.275325 138.200558 
 C 100.14404 138.200558 104.814001 136.040044 108.256703 132.194846 
 C 111.699405 128.349647 113.633766 123.133707 113.633766 117.695774 
@@ -40,7 +53,7 @@ C 78.851244 107.041902 76.916883 112.257842 76.916883 117.695774
 C 76.916883 123.133707 78.851244 128.349647 82.293946 132.194846 
 C 85.736648 136.040044 90.406609 138.200558 95.275325 138.200558 
 z
-" clip-path="url(#pabbe37b48e)" style="fill: #e3f2fd; stroke: #002060; stroke-width: 1.5; stroke-linejoin: miter"/>
+" clip-path="url(#pd51ce7b9cf)" style="fill: #e5edf8; stroke: #4080c0; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- 디지털 아카이브 -->
@@ -434,16 +447,16 @@ z
      <use xlink:href="#AppleSDGothicNeo-Regular-cd95" transform="translate(571.599884 0)"/>
     </g>
    </g>
-   <g id="patch_3">
+   <g id="patch_4">
     <path d="M 121.434818 117.695774 
 Q 155.66683 117.695774 188.22179 117.695774 
-" style="fill: none; stroke: #002060; stroke-width: 1.5; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 1.5; stroke-linecap: round"/>
     <path d="M 184.22179 115.695774 
 L 188.22179 117.695774 
 L 184.22179 119.695774 
-" style="fill: none; stroke: #002060; stroke-width: 1.5; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
-   <g id="patch_4">
+   <g id="patch_5">
     <path d="M 216.054545 138.200558 
 C 220.923261 138.200558 225.593222 136.040044 229.035924 132.194846 
 C 232.478626 128.349647 234.412987 123.133707 234.412987 117.695774 
@@ -454,7 +467,7 @@ C 199.630465 107.041902 197.696104 112.257842 197.696104 117.695774
 C 197.696104 123.133707 199.630465 128.349647 203.073167 132.194846 
 C 206.515869 136.040044 211.18583 138.200558 216.054545 138.200558 
 z
-" clip-path="url(#pabbe37b48e)" style="fill: #f3e5f5; stroke: #4a148c; stroke-width: 1.5; stroke-linejoin: miter"/>
+" clip-path="url(#pd51ce7b9cf)" style="fill: #f5e0f5; stroke: #9060b0; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
    <g id="text_2">
     <!-- 빅데이터 분석 -->
@@ -684,16 +697,16 @@ z
      <use xlink:href="#AppleSDGothicNeo-Regular-b2dd" transform="translate(458.799911 0)"/>
     </g>
    </g>
-   <g id="patch_5">
+   <g id="patch_6">
     <path d="M 242.214039 117.695774 
 Q 276.446051 117.695774 309.001011 117.695774 
-" style="fill: none; stroke: #002060; stroke-width: 1.5; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 1.5; stroke-linecap: round"/>
     <path d="M 305.001011 115.695774 
 L 309.001011 117.695774 
 L 305.001011 119.695774 
-" style="fill: none; stroke: #002060; stroke-width: 1.5; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
-   <g id="patch_6">
+   <g id="patch_7">
     <path d="M 336.833766 138.200558 
 C 341.702482 138.200558 346.372443 136.040044 349.815145 132.194846 
 C 353.257847 128.349647 355.192208 123.133707 355.192208 117.695774 
@@ -704,7 +717,7 @@ C 320.409686 107.041902 318.475325 112.257842 318.475325 117.695774
 C 318.475325 123.133707 320.409686 128.349647 323.852388 132.194846 
 C 327.29509 136.040044 331.965051 138.200558 336.833766 138.200558 
 z
-" clip-path="url(#pabbe37b48e)" style="fill: #e8f5e9; stroke: #2e7d32; stroke-width: 1.5; stroke-linejoin: miter"/>
+" clip-path="url(#pd51ce7b9cf)" style="fill: #eaf2da; stroke: #558838; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
    <g id="text_3">
     <!-- 생성형 AI -->
@@ -972,16 +985,16 @@ z
      <use xlink:href="#AppleSDGothicNeo-Regular-c7a5" transform="translate(293.399933 0)"/>
     </g>
    </g>
-   <g id="patch_7">
+   <g id="patch_8">
     <path d="M 362.99326 117.695774 
 Q 397.225271 117.695774 429.780232 117.695774 
-" style="fill: none; stroke: #002060; stroke-width: 1.5; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 1.5; stroke-linecap: round"/>
     <path d="M 425.780232 115.695774 
 L 429.780232 117.695774 
 L 425.780232 119.695774 
-" style="fill: none; stroke: #002060; stroke-width: 1.5; stroke-linecap: round"/>
+" style="fill: none; stroke: #bdbdbd; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
-   <g id="patch_8">
+   <g id="patch_9">
     <path d="M 457.612987 138.200558 
 C 462.481703 138.200558 467.151664 136.040044 470.594366 132.194846 
 C 474.037067 128.349647 475.971429 123.133707 475.971429 117.695774 
@@ -992,7 +1005,7 @@ C 441.188907 107.041902 439.254545 112.257842 439.254545 117.695774
 C 439.254545 123.133707 441.188907 128.349647 444.631608 132.194846 
 C 448.07431 136.040044 452.744271 138.200558 457.612987 138.200558 
 z
-" clip-path="url(#pabbe37b48e)" style="fill: #fffde7; stroke: #f57f17; stroke-width: 1.5; stroke-linejoin: miter"/>
+" clip-path="url(#pd51ce7b9cf)" style="fill: #fff3e0; stroke: #e07050; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
    <g id="text_4">
     <!-- AI와 인문학 협업 -->
@@ -1332,7 +1345,7 @@ z
    </g>
    <g id="text_5">
     <!-- 디지털 인문학 발전 타임라인 -->
-    <g style="fill: #002060" transform="translate(222.417656 32.35375) scale(0.14 -0.14)">
+    <g style="fill: #333333" transform="translate(222.417656 32.35375) scale(0.14 -0.14)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-bc1c" d="M 5395 3482 
 L 5395 3891 
@@ -1478,7 +1491,7 @@ z
    </g>
    <g id="text_6">
     <!-- 2000s -->
-    <g style="fill: #002060" transform="translate(82.504465 120.629915) scale(0.09 -0.09)">
+    <g style="fill: #4080c0" transform="translate(82.504465 120.629915) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-32" d="M 397 269 
 L 3066 269 
@@ -1542,7 +1555,7 @@ z
    </g>
    <g id="text_7">
     <!-- 2010s -->
-    <g style="fill: #4a148c" transform="translate(204.512045 120.629915) scale(0.09 -0.09)">
+    <g style="fill: #9060b0" transform="translate(204.512045 120.629915) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-31" d="M 1146 243 
 L 1632 243 
@@ -1564,7 +1577,7 @@ z
    </g>
    <g id="text_8">
     <!-- 2020s -->
-    <g style="fill: #2e7d32" transform="translate(324.499547 120.629915) scale(0.09 -0.09)">
+    <g style="fill: #558838" transform="translate(324.499547 120.629915) scale(0.09 -0.09)">
      <use xlink:href="#AppleSDGothicNeo-Regular-32"/>
      <use xlink:href="#AppleSDGothicNeo-Regular-30" transform="translate(53.299988 0)"/>
      <use xlink:href="#AppleSDGothicNeo-Regular-32" transform="translate(116.299973 0)"/>
@@ -1574,7 +1587,7 @@ z
    </g>
    <g id="text_9">
     <!-- 현재 -->
-    <g style="fill: #f57f17" transform="translate(449.827987 120.675618) scale(0.09 -0.09)">
+    <g style="fill: #e07050" transform="translate(449.827987 120.675618) scale(0.09 -0.09)">
      <defs>
       <path id="AppleSDGothicNeo-Regular-d604" d="M 4934 -262 
 L 4934 141 
@@ -1661,7 +1674,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pabbe37b48e">
+  <clipPath id="pd51ce7b9cf">
    <rect x="21.6" y="50.35375" width="558" height="194.04"/>
   </clipPath>
  </defs>
