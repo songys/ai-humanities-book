@@ -1,0 +1,64 @@
+site_name: "AI 시대, 인문학의 새로운 가능성"
+site_description: "인공지능과 인문학 — 프롬프트 작성부터 AI 글 평가까지"
+site_author: "송영숙"
+
+theme:
+  name: material
+  language: ko
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드로 전환
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드로 전환
+  font:
+    text: Noto Sans KR
+    code: Noto Sans Mono
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+
+nav:
+  - 시작하며: index.md
+  - "Part I — AI와 인문학의 만남":
+    - 소개: part1/index.md
+    - "1장 인공지능 시대, 인문학의 새로운 가능성": part1/ch01-ai-and-humanities.md
+    - "2장 생성형 AI 이해하기": part1/ch02-generative-ai.md
+  - "Part II — AI와 대화하기":
+    - 소개: part2/index.md
+    - "3장 프롬프트의 기초": part2/ch03-prompt-basics.md
+    - "4장 말투 변환으로 글쓰기": part2/ch04-writing-with-tone.md
+    - "5장 AI 글 평가와 교정": part2/ch05-evaluating-ai.md
+  - 부록:
+    - "AI 도구 비교표": appendix/ai-tools-comparison.md
+    - "프롬프트 템플릿 모음": appendix/prompt-templates.md
+    - "한국어 글쓰기 가이드": appendix/korean-writing-guide.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
