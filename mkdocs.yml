@@ -5,28 +5,31 @@ site_author: "송영숙"
 theme:
   name: material
   language: ko
+  custom_dir: docs/overrides
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: 다크 모드로 전환
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: 라이트 모드로 전환
   font:
     text: Noto Sans KR
-    code: Noto Sans Mono
+    code: JetBrains Mono
   features:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.indexes
     - toc.follow
     - content.code.copy
+    - content.code.annotate
 
 nav:
   - 시작하며: index.md
@@ -52,6 +55,8 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - attr_list

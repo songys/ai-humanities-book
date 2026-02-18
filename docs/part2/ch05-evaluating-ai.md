@@ -4,7 +4,7 @@ AI가 생성한 글은 문법적으로 맞아도 "AI가 쓴 것 같은" 느낌�
 
 ## AI 한국어 글의 6가지 전형적 문제
 
-![AI 글의 6가지 문제](../assets/images/diagrams/ai-writing-problems.svg)
+![AI 글의 6가지 문제](../assets/images/figures/ch05/ai-writing-problems.svg)
 
 ### 문제 1: 문장이 짧고 단절적이다
 
@@ -135,7 +135,7 @@ AI가 생성한 글을 다시 AI에게 평가시킬 수 있습니다.
 
 ## AI의 한계와 윤리
 
-![AI의 5가지 한계](../assets/images/diagrams/ai-limitations-overview.svg)
+![AI의 5가지 한계](../assets/images/figures/ch05/ai-limitations-overview.svg)
 
 ### 환각 (Hallucination)
 

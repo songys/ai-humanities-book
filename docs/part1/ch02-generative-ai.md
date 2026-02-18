@@ -8,7 +8,7 @@
 
 ## 검색 AI와 생성형 AI의 차이
 
-![검색 AI vs 생성형 AI](../assets/images/diagrams/search-vs-generative.svg)
+![검색 AI vs 생성형 AI](../assets/images/figures/ch02/search-vs-generative.svg)
 
 검색 AI는 이미 존재하는 정보를 찾아서 보여줍니다. 구글 검색에 질문을 입력하면 관련 웹페이지 목록이 나오고, 사용자가 직접 읽으며 원하는 정보를 골라야 하죠. 반면 생성형 AI는 질문을 이해하고 새로운 답변을 직접 만들어냅니다. ChatGPT에 같은 질문을 던지면 맞춤형 답변을 작성해 주고, 대화하듯 추가 질문으로 답변을 개선할 수도 있습니다.
 
@@ -18,7 +18,7 @@
 
 AI 기술은 넓은 개념에서 좁은 개념으로 층층이 쌓여 있습니다.
 
-![AI 기술 계층 구조](../assets/images/diagrams/ai-hierarchy-pyramid.svg)
+![AI 기술 계층 구조](../assets/images/figures/ch02/ai-hierarchy-pyramid.svg)
 
 **인공지능(AI)**은 사람의 지능을 모방하는 모든 기술을 포괄하는 가장 넓은 개념입니다. 그 안에 **머신러닝(ML)**이 있는데, 명시적으로 프로그래밍하지 않아도 데이터에서 패턴을 스스로 학습하는 방법론이죠. 머신러닝 안에 **딥러닝(DL)**이 있습니다. 인공 신경망을 여러 겹 쌓아 복잡한 패턴을 학습하는 방식인데, 이미지 인식이나 자연어 처리에서 큰 성과를 거두었습니다. 그리고 딥러닝의 한 갈래로 **LLM**이 있습니다. 대규모 텍스트 데이터로 학습한 언어 특화 모델로, ChatGPT나 Claude가 바로 이 범주에 속합니다.
 
@@ -26,7 +26,7 @@ AI 산업은 **데이터(Data)**, **모델(Model)**, **서비스(Product)** 세 
 
 ## ML에서 LLM으로: 시대의 전환
 
-![ML/AI 시대 구분](../assets/images/diagrams/ml-era-timeline.svg)
+![ML/AI 시대 구분](../assets/images/figures/ch02/ml-era-timeline.svg)
 
 **Classical ML 시대(1990~2010년대 중반)**에는 SVM, Random Forest 같은 알고리즘이 주류였고, 주로 정형 데이터(표, 숫자)를 다루었습니다. 금융 예측, 제조 품질 관리처럼 도메인에 특화된 문제를 풀었죠.
 
@@ -42,7 +42,7 @@ AI 산업은 **데이터(Data)**, **모델(Model)**, **서비스(Product)** 세 
 
 ### 전환기에서 현재로
 
-![데이터 전환](../assets/images/diagrams/data-evolution-flow.svg)
+![데이터 전환](../assets/images/figures/ch02/data-evolution-flow.svg)
 
 전환기에는 한국어 NLP 데이터가 양적으로 팽창했습니다. 국립국어원(모두의 말뭉치), AI HUB, 네이버(NLP Challenge) 등이 주요 데이터 제공자로 활동했고, word2vec으로 대표되는 벡터 임베딩 시기에 단어나 문장의 의미 연구가 활발했습니다.
 
@@ -50,7 +50,7 @@ LLM 이후에는 데이터 지형이 크게 바뀌었습니다. 양질의 데이
 
 ### 데이터에 대한 오해
 
-![데이터에 대한 오해](../assets/images/diagrams/data-misconceptions.svg)
+![데이터에 대한 오해](../assets/images/figures/ch02/data-misconceptions.svg)
 
 AI와 데이터의 관계에서 흔히 빠지는 오해 두 가지가 있습니다.
 
@@ -72,7 +72,7 @@ AI는 학습한 데이터의 범위 안에서만 답변할 수 있습니다. 데
 
 생성형 AI가 어떻게 답변을 만들어내는지, 아주 간단하게 살펴봅시다.
 
-![생성형 AI 작동 원리](../assets/images/diagrams/ai-working-principle.svg)
+![생성형 AI 작동 원리](../assets/images/figures/ch02/ai-working-principle.svg)
 
 **1단계**에서 AI는 엄청나게 많은 텍스트(책, 웹사이트, 논문 등)를 읽고 학습합니다. **2단계**에서 이 학습을 통해 '다음에 올 단어'를 예측하는 능력을 갖추게 됩니다. **3단계**에서 사용자의 질문을 받으면 학습한 지식을 바탕으로 답변을 '생성'하고, **4단계**에서 대화를 통해 답변을 개선하고 구체화합니다.
 

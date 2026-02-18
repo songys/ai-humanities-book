@@ -13,7 +13,7 @@
 
 ## 조합 프롬프트 공식
 
-![말투 조합 공식](../assets/images/diagrams/tone-combination-formula.svg)
+![말투 조합 공식](../assets/images/figures/ch04/tone-combination-formula.svg)
 
 이 네 가지 요소를 조합하는 공식이 있습니다.
 
@@ -133,7 +133,7 @@
 
 ## 6가지 말투 비교 요약
 
-![6가지 말투 레이더 차트](../assets/images/diagrams/six-tones-radar.svg)
+![6가지 말투 레이더 차트](../assets/images/figures/ch04/six-tones-radar.svg)
 
 | 말투 | 종결 어미 | 비유·예시 | 전문 용어 | 문장 길이 | 감정·주관 |
 |------|----------|----------|----------|----------|----------|

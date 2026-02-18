@@ -8,7 +8,7 @@
 
 ## 이 책의 구성
 
-![이 책의 로드맵](assets/images/diagrams/book-roadmap.svg)
+![이 책의 로드맵](assets/images/figures/index/book-roadmap.svg)
 
 **Part I — AI와 인문학의 만남**에서는 디지털 인문학의 흐름을 짚고, 생성형 AI가 무엇인지, 어떤 데이터로 학습하는지를 알아봅니다. AI가 바꾸고 있는 인문학의 풍경을 조망하되, 데이터의 한계가 곧 AI의 한계라는 점도 함께 짚습니다.
 

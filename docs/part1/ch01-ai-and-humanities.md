@@ -4,7 +4,7 @@
 
 디지털 인문학(Digital Humanities)은 디지털 기술을 활용하여 인문학적 질문에 답하고, 동시에 인문학적 관점으로 디지털 기술의 의미를 성찰하는 학문 분야입니다. 컴퓨터가 등장한 이후 인문학자들은 기술을 연구 도구로 받아들여 왔는데, 그 과정은 단순한 도구 변화가 아니라 학문 자체의 확장이기도 했습니다.
 
-![디지털 인문학 발전 타임라인](../assets/images/diagrams/digital-humanities-timeline.svg)
+![디지털 인문학 발전 타임라인](../assets/images/figures/ch01/digital-humanities-timeline.svg)
 
 2000년대에는 디지털 아카이브와 전자 텍스트 구축이 중심이었습니다. 종이에 갇혀 있던 고전 텍스트를 디지털화하고, 검색 가능한 형태로 만드는 작업이 본격적으로 이루어졌죠. 2010년대에 접어들면서 빅데이터 분석과 텍스트 마이닝, 시각화 기법이 인문학 연구에 도입되었고, 수천 편의 문학 작품을 동시에 분석하는 '원거리 읽기(distant reading)' 같은 방법론이 등장했습니다.
 
@@ -14,7 +14,7 @@
 
 AI는 인문학의 여러 영역에서 새로운 가능성을 열어놓았습니다.
 
-![AI가 바꾸는 인문학 4영역](../assets/images/diagrams/ai-landscape-grid.svg)
+![AI가 바꾸는 인문학 4영역](../assets/images/figures/ch01/ai-landscape-grid.svg)
 
 ### 글쓰기와 창작
 

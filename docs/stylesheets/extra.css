@@ -1,54 +1,203 @@
-/* 한국어 타이포그래피 */
+/* ============================================================
+   Beamer Madrid 색상 시스템
+   Primary: #002060 (deep navy)
+   Green:   #2E7D32 (좋은 예)
+   Red:     #C62828 (나쁜 예)
+   Orange:  #E65100 (주의/경고)
+   Code BG: #F5F5F0
+   Table alt row: #F0F4FA
+   ============================================================ */
+
+/* --- CSS Custom Properties (Light) --- */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #002060;
+  --md-primary-fg-color--light: #0A3070;
+  --md-primary-fg-color--dark: #00184E;
+  --md-accent-fg-color: #2E7D32;
+  --md-typeset-a-color: #002060;
+}
+
+/* --- CSS Custom Properties (Dark) --- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #4A7ABF;
+  --md-primary-fg-color--light: #6090D0;
+  --md-primary-fg-color--dark: #3060A0;
+  --md-accent-fg-color: #66BB6A;
+}
+
+/* ============================================================
+   한국어 타이포그래피
+   ============================================================ */
 body {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
 
-/* 산문 스타일: 본문 텍스트 */
 .md-typeset p {
-  line-height: 1.9;
-  margin-bottom: 1.2em;
+  line-height: 1.85;
+  margin-bottom: 1.1em;
 }
 
 .md-typeset li {
-  line-height: 1.8;
+  line-height: 1.75;
 }
 
-/* 인용 블록 스타일 */
+/* ============================================================
+   인용 블록 — Beamer Blue
+   ============================================================ */
 .md-typeset blockquote {
-  border-left: 4px solid #5B9BD5;
-  background: #f8fafc;
+  border-left: 4px solid #002060;
+  background: #F0F4FA;
   padding: 1em 1.2em;
   margin: 1.2em 0;
+  border-radius: 0 4px 4px 0;
 }
 
-/* 다이어그램 이미지 */
-.md-typeset img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+  background: rgba(74, 122, 191, 0.1);
+  border-left-color: #4A7ABF;
 }
 
-/* 테이블 스타일 */
+/* ============================================================
+   테이블 — Beamer 스타일 (#002060 헤더, #F0F4FA 줄무늬)
+   ============================================================ */
 .md-typeset table:not([class]) {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
+  border-collapse: collapse;
+  display: table;
+  width: 100%;
 }
 
 .md-typeset table:not([class]) th {
-  background: #5B9BD5;
-  color: white;
+  background: #002060 !important;
+  color: #ffffff !important;
   font-weight: 600;
+  padding: 0.6em 0.8em;
+  border: none;
 }
 
-/* admonition 블록: 한국어에 맞게 */
+.md-typeset table:not([class]) td {
+  padding: 0.5em 0.8em;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) td {
+  background: #F0F4FA;
+}
+
+.md-typeset table:not([class]) tr:nth-child(odd) td {
+  background: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background: #1A3A6A !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:nth-child(even) td {
+  background: rgba(74, 122, 191, 0.08);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:nth-child(odd) td {
+  background: transparent;
+}
+
+/* ============================================================
+   코드 블록 — 개발자 친화적
+   ============================================================ */
+.md-typeset pre {
+  border-radius: 6px;
+  border: 1px solid #E0E0E0;
+}
+
+.md-typeset pre > code {
+  font-size: 0.82rem;
+  line-height: 1.65;
+  font-family: 'JetBrains Mono', 'Noto Sans Mono', 'Menlo', monospace;
+}
+
+.md-typeset code {
+  font-family: 'JetBrains Mono', 'Noto Sans Mono', 'Menlo', monospace;
+  font-size: 0.82em;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset pre {
+  border-color: #404040;
+}
+
+/* ============================================================
+   Admonition — Beamer Block 색상 매핑
+   success/좋은 예 → #2E7D32
+   failure/나쁜 예 → #C62828
+   warning/주의    → #E65100
+   example/예시    → #002060
+   quote/인용      → #555555
+   ============================================================ */
+
+/* success (좋은 예 — Beamer BLOCK_GREEN) */
+.md-typeset .admonition.success,
+.md-typeset details.success {
+  border-color: #2E7D32;
+}
+.md-typeset .admonition.success > .admonition-title,
+.md-typeset details.success > summary {
+  background-color: rgba(46, 125, 50, 0.12);
+}
+
+/* failure (나쁜 예 — Beamer BLOCK_RED) */
+.md-typeset .admonition.failure,
+.md-typeset details.failure {
+  border-color: #C62828;
+}
+.md-typeset .admonition.failure > .admonition-title,
+.md-typeset details.failure > summary {
+  background-color: rgba(198, 40, 40, 0.12);
+}
+
+/* warning (주의 — Beamer BLOCK_ORANGE) */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  border-color: #E65100;
+}
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset details.warning > summary {
+  background-color: rgba(230, 81, 0, 0.12);
+}
+
+/* example (예시 — Beamer BLUE) */
+.md-typeset .admonition.example,
+.md-typeset details.example {
+  border-color: #002060;
+}
+.md-typeset .admonition.example > .admonition-title,
+.md-typeset details.example > summary {
+  background-color: rgba(0, 32, 96, 0.08);
+}
+
 .md-typeset .admonition,
 .md-typeset details {
   margin-bottom: 1.2em;
 }
 
-/* 코드 블록 */
-.md-typeset pre > code {
-  font-size: 0.85rem;
-  line-height: 1.6;
+/* ============================================================
+   다이어그램 이미지
+   ============================================================ */
+.md-typeset img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #E0E0E0;
+}
+
+[data-md-color-scheme="slate"] .md-typeset img {
+  border-color: #404040;
+}
+
+/* ============================================================
+   네비게이션 개선
+   ============================================================ */
+.md-nav__link--active {
+  font-weight: 600;
 }
